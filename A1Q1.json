@@ -1,0 +1,15 @@
+{
+    "_id": INTEGER,
+    "text": STRING,
+    "title": STRING,
+    "num_chars": INTEGER,
+    "date": DATE,
+    "category": STRING,
+    "terms": [
+        {
+            "term": STRING,
+            "term_count": INTEGER
+        }
+    ]
+}
+
